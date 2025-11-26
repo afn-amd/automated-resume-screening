@@ -13,6 +13,12 @@ It uses a **Machine Learning model** (trained in `Resume Screening Code.ipynb`) 
 * **Extensive Categories:** The model is trained to classify resumes across **25 distinct job categories**, including Data Science, HR, Java Developer, DevOps Engineer, Testing, and more.
 * **Text Preprocessing:** Automatically cleans and processes the raw resume text (e.g., removing URLs, special characters, and performing stop-word removal) before prediction.
 
+## 📸 Application Screenshot
+
+Here's a glimpse of the web application in action:
+
+![Screenshot of the Automated Resume Screening application](assets/img.jpg)
+
 ## 🛠️ Technologies Used
 
 The core of the project is built using Python and the following key libraries:
@@ -37,15 +43,15 @@ The core of the project is built using Python and the following key libraries:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <project-folder>
+    git clone [https://github.com/your-username/automated-resume-screening.git](https://github.com/your-username/automated-resume-screening.git)
+    cd automated-resume-screening
     ```
 
 2.  **Create a virtual environment (Recommended):**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Linux/macOS
-    # venv\Scripts\activate   # On Windows
+    python -m venv res
+    source res/bin/activate  # On Linux/macOS
+    # res\Scripts\activate   # On Windows
     ```
 
 3.  **Install dependencies:**
@@ -71,5 +77,3 @@ To start the Streamlit application:
 
 ```bash
 streamlit run app.py
-
-![img](https://github.com/user-attachments/assets/4f3d0f14-5714-4ec2-adca-4774438f89d5)
