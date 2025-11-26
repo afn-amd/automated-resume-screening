@@ -1,0 +1,32 @@
+# 1. Project-Specific Virtual Environment
+# This line ensures your 'res' virtual environment folder is ignored.
+res/
+
+# 2. Machine Learning Model Artifacts
+# These files are large binaries generated from the notebook training
+# and should not be tracked by Git, as they bloat repository history.
+clf.pkl
+tfidf.pkl
+encoder.pkl
+
+# 3. Python and IDE Artifacts
+# Byte-compiled files and temporary folders
+__pycache__/
+*.pyc
+.vscode/     # Visual Studio Code settings
+.idea/       # PyCharm/IntelliJ settings
+
+# 4. Jupyter Notebook Artifacts
+# Temporary checkpoints created while editing the notebook
+.ipynb_checkpoints/
+
+# 5. Operating System Junk
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# 6. Streamlit Files
+# If Streamlit creates a local cache (less common now, but good to be safe)
+.streamlit/
