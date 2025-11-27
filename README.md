@@ -77,3 +77,10 @@ To start the Streamlit application:
 
 ```bash
 streamlit run app.py
+```
+
+## 🧑‍💻 Author
+  **Affan Ahmed**
+  <br>https://www.linkedin.com/in/-affanahmed/
+
+**⭐ If you like this project, don’t forget to give it a star on GitHub!**
